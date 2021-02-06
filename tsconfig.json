@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+    "sourceMap": false,
+    "jsx": "react-jsx",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "incremental": true,
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "include": [
+    "src"
+  ]
+}
